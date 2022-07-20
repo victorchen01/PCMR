@@ -1,13 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Button from 'react-bootstrap/Button';
+import {Alert} from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Introducting the KY-1</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is a product, click 'learn more' or use the nav bar
         </p>
         <a
           className="App-link"
@@ -15,7 +19,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn More
         </a>
       </header>
     </div>
