@@ -12,6 +12,7 @@ import CartS from './pages/cartS.js';
 import Confirm from './pages/confirm.js';
 import Support from './pages/support.js';
 import FAQ from './pages/faq.js';
+import Err from './pages/notfound.js';
 
 // CSS
 import './App.css';
@@ -19,7 +20,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Component Imports
 import React from 'react';
-import { MdShoppingCart } from 'react-icons/md';
+import { MdShoppingCart, MdOutlineHeadphones, MdKeyboardAlt, MdOutlineMouse } from 'react-icons/md';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Button, Container, Row, Col, Form, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { CDBFooter, CDBFooterLink, CDBBox, CDBBtn, CDBIcon } from 'cdbreact';
@@ -41,16 +42,19 @@ function App() {
                   <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
 
+                      <MdKeyboardAlt style={{marginLeft: "7px", marginTop: "15px", alignItems: "center"}}></MdKeyboardAlt>
                       <NavDropdown title="Keyboards" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/ky1">KY-1</NavDropdown.Item>
                         <NavDropdown.Item href="/ky2">KY-2</NavDropdown.Item>
                       </NavDropdown>
 
+                      <MdOutlineHeadphones style={{marginLeft: "7px", marginTop: "15px", alignItems: "center"}}></MdOutlineHeadphones>
                       <NavDropdown title="Headphones" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/hp1">HP-1</NavDropdown.Item>
                         <NavDropdown.Item href="/hp2">HP-2</NavDropdown.Item>
                       </NavDropdown>
 
+                      <MdOutlineMouse style={{marginLeft: "7px", marginTop: "15px", alignItems: "center"}}></MdOutlineMouse>
                       <NavDropdown title="Mice" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/m1">M-1</NavDropdown.Item>
                         <NavDropdown.Item href="/m2">M-2</NavDropdown.Item>
@@ -111,6 +115,7 @@ function App() {
             {/* Help Pages */}
             <Route path="/support"> <Support /> </Route>
             <Route path="/faq"> <FAQ /> </Route>
+            <Route path="*"><Err /></Route>
 
           </Switch>
         </div>
