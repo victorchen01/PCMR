@@ -84,24 +84,12 @@ self.__precacheManifest = [
     "url": "/PCMR/static/media/m2-2.4f96ebaf.jpg"
   },
   {
-    "revision": "592643a83b8541edc52063d84c468700",
-    "url": "/PCMR/static/media/fa-brands-400.592643a8.eot"
-  },
-  {
     "revision": "ed311c7a0ade9a75bb3ebf5a7670f31d",
     "url": "/PCMR/static/media/fa-brands-400.ed311c7a.woff2"
   },
   {
-    "revision": "1a575a4138e5f366474f0e7c5bd614a5",
-    "url": "/PCMR/static/media/fa-brands-400.1a575a41.woff"
-  },
-  {
-    "revision": "513aa607d398efaccc559916c3431403",
-    "url": "/PCMR/static/media/fa-brands-400.513aa607.ttf"
-  },
-  {
-    "revision": "d1d7e3b4c219fde0f7376c6facfd7149",
-    "url": "/PCMR/static/media/fa-regular-400.d1d7e3b4.woff"
+    "revision": "592643a83b8541edc52063d84c468700",
+    "url": "/PCMR/static/media/fa-brands-400.592643a8.eot"
   },
   {
     "revision": "b91d376b8d7646d671cd820950d5f7f1",
@@ -112,12 +100,24 @@ self.__precacheManifest = [
     "url": "/PCMR/static/media/fa-regular-400.b0e2db3b.eot"
   },
   {
+    "revision": "513aa607d398efaccc559916c3431403",
+    "url": "/PCMR/static/media/fa-brands-400.513aa607.ttf"
+  },
+  {
+    "revision": "d1d7e3b4c219fde0f7376c6facfd7149",
+    "url": "/PCMR/static/media/fa-regular-400.d1d7e3b4.woff"
+  },
+  {
     "revision": "766913e6c0088ab8c9f73e18b4127bc4",
     "url": "/PCMR/static/media/fa-regular-400.766913e6.ttf"
   },
   {
-    "revision": "c5d109be8edd3de0f60eb472bd9ef691",
-    "url": "/PCMR/static/media/fa-regular-400.c5d109be.svg"
+    "revision": "1a575a4138e5f366474f0e7c5bd614a5",
+    "url": "/PCMR/static/media/fa-brands-400.1a575a41.woff"
+  },
+  {
+    "revision": "d745348d289b149026921f197929a893",
+    "url": "/PCMR/static/media/fa-solid-900.d745348d.woff"
   },
   {
     "revision": "d824df7eb2e268626a2dd9a6a741ac4e",
@@ -128,20 +128,20 @@ self.__precacheManifest = [
     "url": "/PCMR/static/media/fa-solid-900.0c6bfc66.eot"
   },
   {
+    "revision": "c5d109be8edd3de0f60eb472bd9ef691",
+    "url": "/PCMR/static/media/fa-regular-400.c5d109be.svg"
+  },
+  {
     "revision": "b9625119ce4300f0ef890a8f3234c773",
     "url": "/PCMR/static/media/fa-solid-900.b9625119.ttf"
   },
   {
-    "revision": "d745348d289b149026921f197929a893",
-    "url": "/PCMR/static/media/fa-solid-900.d745348d.woff"
+    "revision": "1d5619cd804367cefe6da2d79289218a",
+    "url": "/PCMR/static/media/fa-brands-400.1d5619cd.svg"
   },
   {
     "revision": "37bc7099f6f1ba80236164f22e905837",
     "url": "/PCMR/static/media/fa-solid-900.37bc7099.svg"
-  },
-  {
-    "revision": "1d5619cd804367cefe6da2d79289218a",
-    "url": "/PCMR/static/media/fa-brands-400.1d5619cd.svg"
   },
   {
     "revision": "deaa17e84a15f8ae4b228237fe1c863f",
